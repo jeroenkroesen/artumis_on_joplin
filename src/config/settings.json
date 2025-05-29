@@ -1,0 +1,123 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"editor.pluginCompatibilityBannerDismissedFor": [
+		"com.github.joplin.kanban",
+		"com.isquaredsoftware.joplin-plugin-vscode-style-search",
+		"com.whatever.inline-tags",
+		"com.whatever.quick-links",
+		"io.github.djsudduth.paragraph-extractor",
+		"io.github.jackgruber.note-overview",
+		"io.treymo.LinkGraph",
+		"joplin-plugin-conflict-resolution",
+		"joplin-plugin-search-and-replace",
+		"joplin.plugin.MultiMarkdownTableTools",
+		"joplin.plugin.note.tabs",
+		"joplin.plugin.templates",
+		"outline",
+		"plugin.calebjohn.rich-markdown",
+		"plugin.calebjohn.todo",
+		"io.github.jackgruber.backup"
+	],
+	"locale": "en_US",
+	"theme": 2,
+	"themeAutoDetect": false,
+	"layoutButtonSequence": 1,
+	"uncompletedTodosOnTop": false,
+	"showCompletedTodos": true,
+	"notes.sortOrder.field": "title",
+	"notes.sortOrder.reverse": false,
+	"trackLocation": false,
+	"newNoteFocus": "title",
+	"imageResizing": "neverResize",
+	"notes.listRendererId": "compact",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"markdown.plugin.emoji": true,
+	"markdown.plugin.multitable": true,
+	"showTrayIcon": true,
+	"style.editor.contentMaxWidth": 1000,
+	"style.scrollbarSize": "12",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "tempContainer-MvCfk0Ji9eBJlZmpT6F19Q",
+				"children": [
+					{
+						"key": "plugin-view-outline-outline.panel",
+						"context": {
+							"pluginId": "outline"
+						},
+						"visible": true
+					},
+					{
+						"key": "sideBar",
+						"visible": true
+					}
+				],
+				"visible": true,
+				"width": 214
+			},
+			{
+				"key": "tempContainer-nSCcYrwIe2FQq2MMholCt4",
+				"children": [
+					{
+						"key": "noteList",
+						"visible": false
+					}
+				],
+				"visible": false,
+				"width": 257
+			},
+			{
+				"key": "tempContainer-iR9R5Zfmh79Kq1tbv42qv6",
+				"children": [
+					{
+						"key": "plugin-view-joplin.plugin.note.tabs-note.tabs.panel",
+						"context": {
+							"pluginId": "joplin.plugin.note.tabs"
+						},
+						"visible": true,
+						"height": 40
+					},
+					{
+						"key": "editor",
+						"visible": true
+					},
+					{
+						"key": "plugin-view-joplin-plugin-kanmug-kanban",
+						"context": {
+							"pluginId": "joplin-plugin-kanmug"
+						},
+						"visible": false
+					}
+				],
+				"visible": true
+			},
+			{
+				"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
+				"context": {
+					"pluginId": "io.treymo.LinkGraph"
+				},
+				"visible": false
+			}
+		],
+		"visible": true
+	},
+	"clipperServer.autoStart": true,
+	"sync.interval": 300,
+	"noteVisiblePanes": [
+		"editor"
+	],
+	"editor.keyboardMode": "",
+	"editor.beta": false,
+	"spellChecker.languages": [
+		"en-US"
+	],
+	"windowContentZoomFactor": 110,
+	"plugin-io.github.personalizedrefrigerator.codemirror6-settings.lineNumbers": false,
+	"plugin-io.github.personalizedrefrigerator.codemirror6-settings.codeFolding": true,
+	"plugin-io.github.personalizedrefrigerator.codemirror6-settings.highlightActiveLine": true,
+	"plugin-io.github.personalizedrefrigerator.codemirror6-settings.hideMarkdown": "more",
+	"plugin-io.github.personalizedrefrigerator.codemirror6-settings.showLinkTooltip": false
+}

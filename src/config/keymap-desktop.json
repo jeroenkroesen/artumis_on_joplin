@@ -1,0 +1,98 @@
+[
+  {
+    "command": "newNote",
+    "accelerator": null
+  },
+  {
+    "command": "newTodo",
+    "accelerator": null
+  },
+  {
+    "command": "insertDateTime",
+    "accelerator": null
+  },
+  {
+    "command": "editor.sortSelectedLines",
+    "accelerator": null
+  },
+  {
+    "command": "editor.swapLineUp",
+    "accelerator": null
+  },
+  {
+    "command": "editor.swapLineDown",
+    "accelerator": null
+  },
+  {
+    "command": "itags.convertNoteToJoplinTags",
+    "accelerator": null
+  },
+  {
+    "command": "copyFolderID",
+    "accelerator": null
+  },
+  {
+    "command": "createNoteFromDefaultTemplate",
+    "accelerator": null
+  },
+  {
+    "command": "createNoteFromTemplate",
+    "accelerator": "Ctrl+N"
+  },
+  {
+    "command": "createTodoFromDefaultTemplate",
+    "accelerator": null
+  },
+  {
+    "command": "createTodoFromTemplate",
+    "accelerator": "Ctrl+T"
+  },
+  {
+    "command": "insertTemplate",
+    "accelerator": "Alt+Ctrl+I"
+  },
+  {
+    "command": "tabsPinNote",
+    "accelerator": null
+  },
+  {
+    "command": "itags.refreshPanel",
+    "accelerator": "Ctrl+Shift+I"
+  },
+  {
+    "command": "resolveConflictsCommand",
+    "accelerator": null
+  },
+  {
+    "command": "searchAndReplace",
+    "accelerator": "Ctrl+H"
+  },
+  {
+    "command": "showHideGraphUI",
+    "accelerator": "F8"
+  },
+  {
+    "command": "itags.toggleSearch",
+    "accelerator": null
+  },
+  {
+    "command": "toggleOutline",
+    "accelerator": "F9"
+  },
+  {
+    "command": "itags.updateDB",
+    "accelerator": "Ctrl+Shift+D"
+  },
+  {
+    "command": "createNoteOverview",
+    "accelerator": "F7"
+  },
+  {
+    "command": "CreateBackup",
+    "accelerator": null
+  },
+  {
+    "command": "jop-freehand-drawing-jsdraw-plugin-insertDrawing",
+    "accelerator": null
+  }
+]

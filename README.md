@@ -1,2 +1,2 @@
-# artumis_on_joplin
-Implementing the Artumis second brain method in Joplin
+# Artumis on Joplin
+Implementing the Artumis second brain method in the Joplin note-taking app.
