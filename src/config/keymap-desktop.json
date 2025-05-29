@@ -24,10 +24,6 @@
     "accelerator": null
   },
   {
-    "command": "itags.convertNoteToJoplinTags",
-    "accelerator": null
-  },
-  {
     "command": "copyFolderID",
     "accelerator": null
   },
@@ -56,10 +52,6 @@
     "accelerator": null
   },
   {
-    "command": "itags.refreshPanel",
-    "accelerator": "Ctrl+Shift+I"
-  },
-  {
     "command": "resolveConflictsCommand",
     "accelerator": null
   },
@@ -72,16 +64,8 @@
     "accelerator": "F8"
   },
   {
-    "command": "itags.toggleSearch",
-    "accelerator": null
-  },
-  {
     "command": "toggleOutline",
     "accelerator": "F9"
-  },
-  {
-    "command": "itags.updateDB",
-    "accelerator": "Ctrl+Shift+D"
   },
   {
     "command": "createNoteOverview",
@@ -94,5 +78,17 @@
   {
     "command": "jop-freehand-drawing-jsdraw-plugin-insertDrawing",
     "accelerator": null
+  },
+  {
+    "command": "tabsToggleVisibility",
+    "accelerator": "Ctrl+Alt+O"
+  },
+  {
+    "command": "editAlarm",
+    "accelerator": "Ctrl+Alt+A"
+  },
+  {
+    "command": "showNoteProperties",
+    "accelerator": "Ctrl+Alt+Q"
   }
 ]
