@@ -3,12 +3,24 @@ Implementing the Artumis second brain method in the Joplin note-taking app.
   
 [Artumis](https://jeroenkroesen.github.io/artumis_site/)
 ***
-
+  
 # CHANGELOG
 
 ***
 
-## Branche 'zen_interface'
+## 202505 Update
+* Added `Categories`
+* Added `Inline references`
+* Updated plugins
+* Updated config:
+    * Start with note list visible
+* Maintenance
+    * Removed geolocation from notes
+    * Removed unused resourced
+***  
+  
+  
+## Branch 'zen_interface'
 When comparing Joplin to Obsidian and LogSeq, the Joplin UI comes across as dated, stale and a little cluttered. A second brain should have a clean, peaceful zen vibe. It is already possible to hide the sidebar and note list with default shortcuts.  
   
 The following remained in the way of clutter:
@@ -35,3 +47,5 @@ Ofcourse by hiding UI, functionality is lost. The functionality I truly missed I
 ### Interface (userchrome)
 * Hide: rightside button bar (note-title-info-group)
 * Hide: markdown toolbar (CodeMirrorToolbar)
+
+***
