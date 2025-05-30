@@ -2,9 +2,6 @@
 title: Topic
 updated: 2025-05-30 11:40:58Z
 created: 2025-03-10 19:00:13Z
-latitude: 52.19448960
-longitude: 4.41910120
-altitude: 0.0000
 tags:
   - concept
 ---
