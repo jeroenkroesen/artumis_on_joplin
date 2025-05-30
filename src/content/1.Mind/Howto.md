@@ -1,6 +1,6 @@
 ---
 title: Howto
-updated: 2025-03-26 21:07:19Z
+updated: 2025-05-30 11:33:34Z
 created: 2025-03-10 19:00:10Z
 tags:
   - concept
@@ -16,6 +16,22 @@ Use the template [Howto](../Templates/Howto%20-TEMPLATE-.md) to create new howto
 <br>
 
 
+<!-- note-overview-plugin
+search: tag:howto.type
+fields: title
+alias: title AS Type
+sort: title ASC
+details:
+  open: false
+  summary: Howto Types - {{count}}
+-->
+<details close>
+<summary>Howto Types - 0</summary>
+
+| Type |
+| --- |
+</details>
+<!--endoverview-->
 
 <!-- note-overview-plugin
 search: tag:howto

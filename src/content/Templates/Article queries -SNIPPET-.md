@@ -1,33 +1,19 @@
 ---
-title: Article -TEMPLATE-
-updated: 2025-05-30 11:55:12Z
-created: 2024-10-14 10:32:44Z
+title: Article queries -SNIPPET-
+updated: 2025-05-30 12:03:06Z
+created: 2025-05-30 11:56:04Z
 tags:
   - template
 ---
 
 ---
-article_name:
-  label: Title
-  type: text
 article_tag:
   label: Tag (a. prepended)
   type: text
-template_title: {{ article_name }}
-template_tags: article, a.{{ article_tag }}
+template_tags: a.{{ article_tag }}, .article
 template_notebook: 490fbb213d6047daa4e360593536ff89
 
 ---
-# {{ article_name }}
-###### t
-REMOVE_ALL_BACKSLASHES
-
-[⬆️](#t)
-***
-<br>
-
-
-
 <!-- note-overview-plugin
 search: tag:article tag:a.{{ article_tag }}
 fields: title
@@ -96,16 +82,6 @@ details:
 </details>
 <!--endoverview-->
 
-
-[⬆️](#t)
-***
-<br>
-
-
-
-| Writing start | Published date | Tagging             |
-|-----------------|-----------------|------------------------|
-| DD-MM-YYYY    | -              | `a.{{ article_tag }}` |
 [⬆️](#t)
 ***
 <br>

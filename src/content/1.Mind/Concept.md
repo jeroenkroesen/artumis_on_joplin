@@ -1,6 +1,6 @@
 ---
 title: Concept
-updated: 2025-03-29 17:23:41Z
+updated: 2025-05-30 11:24:51Z
 created: 2025-03-23 18:24:17Z
 ---
 
@@ -28,12 +28,13 @@ details:
   summary: Concepts - {{count}}
 -->
 <details  open>
-<summary>Concepts - 10</summary>
+<summary>Concepts - 11</summary>
 
 | Concept |
 | --- |
 |[Article](../1.Mind/Article.md)|
 |[Book](../1.Mind/Book.md)|
+|[Category](../1.Mind/Category.md)|
 |[Diary](../1.Mind/Diary.md)|
 |[Dossiers](../1.Mind/Dossiers.md)|
 |[Howto](../1.Mind/Howto.md)|

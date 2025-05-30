@@ -1,25 +1,25 @@
 ---
-title: Article -TEMPLATE-
-updated: 2025-05-30 11:55:12Z
-created: 2024-10-14 10:32:44Z
+title: Category -TEMPLATE-
+updated: 2025-05-30 12:05:48Z
+created: 2025-05-30 12:03:32Z
 tags:
   - template
 ---
 
 ---
-article_name:
-  label: Title
+category_naam:
+  label: Category
   type: text
-article_tag:
-  label: Tag (a. prepended)
+category_tag:
+  label: Tag (c. prepended)
   type: text
-template_title: {{ article_name }}
-template_tags: article, a.{{ article_tag }}
+template_title: {{ category_naam }} -c-
+template_tags: category, c.{{ category_tag }}
 template_notebook: 490fbb213d6047daa4e360593536ff89
 
 ---
-# {{ article_name }}
-###### t
+# {{ category_naam }}
+##### t
 REMOVE_ALL_BACKSLASHES
 
 [⬆️](#t)
@@ -29,26 +29,26 @@ REMOVE_ALL_BACKSLASHES
 
 
 <!-- note-overview-plugin
-search: tag:article tag:a.{{ article_tag }}
+search: tag:topic tag:c.{{ category_tag }}
 fields: title
-alias: title AS Article
+alias: title AS Topic
 sort: title ASC
 details:
   open: false
-  summary: Related articles - \{\{count\}\}
+  summary: Topics - \{\{count\}\}
 -->
 <details close>
-<summary>Related articles - \{\{count\}\}</summary>
+<summary>Topics - \{\{count\}\}</summary>
 
-| Article |
+| Topic |
 | --- |
 </details>
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: type:note -tag:media -tag:article -tag:communication tag:a.{{ article_tag }}
-fields: title, image
-alias: title AS Note, image AS Pic
+search: type:note -tag:topic -tag:media -tag:communication tag:c.{{ category_tag }}
+fields: title
+alias: title AS Note
 sort: title DESC
 details:
   open: false
@@ -57,13 +57,13 @@ details:
 <details close>
 <summary>Notes - \{\{count\}\}</summary>
 
-| Note | Pic |
-| --- | --- |
+| Note |
+| --- |
 </details>
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: -tag:article tag:media tag:a.{{ article_tag }}
+search: tag:media tag:c.{{ category_tag }}
 fields: title
 alias: title AS Media
 sort: title ASC
@@ -80,7 +80,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:communication tag:a.{{ article_tag }}
+search: tag:communication tag:c.{{ category_tag }}
 fields: title
 alias: title AS Communication
 sort: title DESC
@@ -96,16 +96,15 @@ details:
 </details>
 <!--endoverview-->
 
-
 [⬆️](#t)
 ***
 <br>
 
 
 
-| Writing start | Published date | Tagging             |
-|-----------------|-----------------|------------------------|
-| DD-MM-YYYY    | -              | `a.{{ article_tag }}` |
+| Tagging |
+|-|
+`c.{{ category_tag }}` |
 [⬆️](#t)
 ***
 <br>

@@ -1,6 +1,6 @@
 ---
 title: Organization -TEMPLATE-
-updated: 2025-03-20 15:49:11Z
+updated: 2025-05-30 12:30:05Z
 created: 2023-05-31 11:05:39Z
 tags:
   - template
@@ -61,8 +61,8 @@ details:
 <!-- note-overview-plugin
 search: type:note -tag:media -tag:person -tag:communication tag:o.{{
   organization_name_for_tag }}
-fields: title
-alias: title AS Note
+fields: title, image
+alias: title AS Note, image AS Pic
 sort: title ASC
 details:
   open: false
@@ -71,8 +71,8 @@ details:
 <details close>
 <summary>Notes - \{\{count\}\}</summary>
 
-| Note |
-| --- |
+| Note | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 

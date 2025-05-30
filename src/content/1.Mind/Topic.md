@@ -1,6 +1,6 @@
 ---
 title: Topic
-updated: 2025-03-26 21:11:31Z
+updated: 2025-05-30 11:40:58Z
 created: 2025-03-10 19:00:13Z
 latitude: 52.19448960
 longitude: 4.41910120
@@ -11,9 +11,11 @@ tags:
 
 # :hash: Topic
 ###### t
-Link notes to topics.
+Link notes to topics. 
 
 Use the template [Topic](../Templates/Topic%20-TEMPLATE-.md) to create new topics.
+
+If you get to a point where you have a lot of topics, it may be useful to organize them into [categories](../1.Mind/Category.md).
 [⬆️](#t)
 ***
 <br>

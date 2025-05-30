@@ -1,26 +1,44 @@
 ---
 title: Topic queries -TEMPLATE-
-updated: 2025-03-20 15:49:55Z
+updated: 2025-05-30 12:40:07Z
 created: 2025-03-09 19:12:02Z
 tags:
   - template
 ---
 
 ---
-topic_naam:
-  label: Topic
-  type: text
 topic_tag:
   label: Tag (t. prepended)
   type: text
-template_title: {{ topic_naam }} -t-
 template_tags: t.{{ topic_tag }}, topic
-template_notebook: 490fbb213d6047daa4e360593536ff89
 
 ---
 
 REMOVE_ALL_BACKSLASHES
+REPLACE_NULL_WITH_REGEX
 
+<!-- note-overview-plugin
+search: ref_{{ topic_tag }}
+fields: title, excerpt
+listview:
+  text: |-
+    
+    \{\{title\}\}
+    \{\{excerpt\}\}
+excerpt:
+  regex: null
+  regexflags: gmi
+  removenewline: false
+  removemd: false
+details:
+  open: false
+  summary: Inline references - \{\{count\}\}
+-->
+<details close>
+<summary>Inline references - \{\{count\}\}</summary>
+
+</details>
+<!--endoverview-->
 
 <!-- note-overview-plugin
 search: tag:topic tag:t.{{ topic_tag }}
@@ -41,8 +59,8 @@ details:
 
 <!-- note-overview-plugin
 search: type:note -tag:topic -tag:media -tag:communication tag:t.{{ topic_tag }}
-fields: title
-alias: title AS Note
+fields: title, image
+alias: title AS Note, image AS Pic
 sort: title DESC
 details:
   open: false
@@ -51,8 +69,8 @@ details:
 <details close>
 <summary>Notes - \{\{count\}\}</summary>
 
-| Note |
-| --- |
+| Note | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 

@@ -1,6 +1,6 @@
 ---
 title: Person -TEMPLATE-
-updated: 2025-03-20 15:49:18Z
+updated: 2025-05-30 12:30:05Z
 created: 2022-11-14 20:55:55Z
 tags:
   - template
@@ -86,8 +86,8 @@ details:
 
 <!-- note-overview-plugin
 search: type:todo iscompleted:0 tag:p.{{ firstname_for_tag }}_{{lastname_for_tag}}
-fields: title, tags
-alias: title AS Todo, tags AS Context
+fields: title
+alias: title AS Todo
 sort: title ASC
 details:
   open: false
@@ -96,8 +96,8 @@ details:
 <details close>
 <summary>Todo - \{\{count\}\}</summary>
 
-| Todo | Context |
-| --- | --- |
+| Todo |
+| --- |
 </details>
 <!--endoverview-->
 

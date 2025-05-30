@@ -1,6 +1,6 @@
 ---
 title: Dossiers
-updated: 2025-03-26 21:06:53Z
+updated: 2025-05-30 11:31:35Z
 created: 2025-03-10 19:00:10Z
 tags:
   - concept
@@ -8,7 +8,7 @@ tags:
 
 # :open_file_folder: Dossiers
 ###### t
-A dossier is something to work on. It differs from a [Topic](../1.Mind/Topic.md) because a dossier is mainly ment to organize todo's and track progress, whereas a topic is ment to gather any information related to that topic.
+A dossier is something to work on. It differs from a [Topic](../1.Mind/Topic.md) because a dossier is mainly meant to organize todo's and track progress, whereas a topic is meant to gather any information related to that topic.
 
 There are 2 templates for dossiers: 
 [Dossier kanban](../Templates/Dossier%20kanban%20-TEMPLATE-.md)
@@ -100,4 +100,4 @@ columns:
 Backlog dossiers | Active dossiers
 --- | ---
 |  | [Learn Artumis Second Brain -d-](../1.Mind/Learn%20Artumis%20Second%20Brain%20-d-.md) |
-_Last updated at 3/26/2025, 10:06:31 PM by Kanban plugin_
+_Last updated at 5/30/2025, 1:24:54 PM by Kanban plugin_

@@ -1,6 +1,6 @@
 ---
 title: Dossier kanban -TEMPLATE-
-updated: 2025-03-26 16:20:34Z
+updated: 2025-05-30 12:15:04Z
 created: 2023-03-04 09:42:12Z
 tags:
   - template
@@ -22,12 +22,37 @@ template_notebook: 490fbb213d6047daa4e360593536ff89
 # {{ dossier_naam }}
 ###### t
 DELETE_BACKSLASHES
+REPLACE_NULL_WITH_REGEX
 
 [⬆️](#t)
 ***
 <br>
 
 
+<!-- note-overview-plugin
+search: ref_{{ dossier_tag }}
+fields: title, excerpt
+listview:
+  text: |-
+    
+    \{\{title\}\}
+    \{\{excerpt\}\}
+excerpt:
+  regex: null
+  regexflags: gmi
+  removenewline: false
+  removemd: false
+details:
+  open: false
+  summary: References inline - \{\{count\}\}
+-->
+<details close>
+<summary>References inline - \{\{count\}\}</summary>
+
+</details>
+<!--endoverview-->
+<details close>
+<summary>References inline - \{\{count\}\}</summary>
 
 <!-- note-overview-plugin
 search: type:todo iscompleted:0 tag:issue tag:t.{{ dossier_tag }}

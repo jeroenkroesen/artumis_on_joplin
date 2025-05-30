@@ -1,6 +1,6 @@
 ---
 title: Book -TEMPLATE-
-updated: 2025-03-20 15:48:24Z
+updated: 2025-05-30 12:01:15Z
 created: 2022-11-16 23:37:37Z
 tags:
   - template
@@ -22,17 +22,35 @@ template_notebook: 490fbb213d6047daa4e360593536ff89
 
 
 | Authors | Year | ISBN | File |
-|---|---|---|---|
+|----------|-------|------|-------|
 |  |  |  |  |
 [⬆️](#t)
 ***
 <br>
+DELETE_BACKSLASHES
 
 
+<!-- note-overview-plugin
+search: type:note tag:book.{{ title_for_tag }}
+fields: title, image
+alias: title AS Note, image AS Pic
+sort: title ASC
+details:
+  open: true
+  summary: Notes - \{\{count\}\}
+-->
+<details  open>
+<summary>Notes - \{\{count\}\}</summary>
 
-| LinkTags | Tagging |
-|-|-|
-| [Book](../1.Mind/Book.md) | LinkTagging |
+| Note | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+
+| Tagging |
+|-|
+| book.{{ title_for_tag }} |
 [⬆️](#t)
 ***
 <br>

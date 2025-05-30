@@ -1,6 +1,6 @@
 ---
 title: Location -TEMPLATE-
-updated: 2025-03-26 20:55:30Z
+updated: 2025-05-30 12:25:05Z
 created: 2024-07-31 10:35:42Z
 tags:
   - template
@@ -45,8 +45,8 @@ DELETE_BACKSLASHES
 
 <!-- note-overview-plugin
 search: tag:location tag:l.{{ location_name_for_tag }}
-fields: title
-alias: title AS Location
+fields: title, image
+alias: title AS Location, image AS Pic
 sort: title ASC
 details:
   open: false
@@ -55,15 +55,15 @@ details:
 <details close>
 <summary>Locations inside this location - \{\{count\}\}</summary>
 
-| Location |
-| --- |
+| Location | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 
 <!-- note-overview-plugin
 search: tag:person tag:l.{{ location_name_for_tag }}
-fields: title
-alias: title AS Person
+fields: title, image
+alias: title AS Person, image AS Pic
 sort: title ASC
 details:
   open: false
@@ -72,15 +72,15 @@ details:
 <details close>
 <summary>Persons connected - \{\{count\}\}</summary>
 
-| Person |
-| --- |
+| Person | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 
 <!-- note-overview-plugin
 search: tag:organization tag:l.{{ location_name_for_tag }}
-fields: title
-alias: title AS Organization
+fields: title, image
+alias: title AS Organization, image AS Pic
 sort: title ASC
 details:
   open: false
@@ -89,16 +89,16 @@ details:
 <details close>
 <summary>Organizations - \{\{count\}\}</summary>
 
-| Organization |
-| --- |
+| Organization | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 
 <!-- note-overview-plugin
 search: type:note -tag:person -tag:organization -tag:location -tag:media
   tag:l.{{ location_name_for_tag }}
-fields: title
-alias: title AS Note
+fields: title, image
+alias: title AS Note, image AS Pic
 sort: title ASC
 details:
   open: false
@@ -107,8 +107,8 @@ details:
 <details close>
 <summary>Notes - \{\{count\}\}</summary>
 
-| Note |
-| --- |
+| Note | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 

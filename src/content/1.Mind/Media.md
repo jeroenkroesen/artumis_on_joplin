@@ -1,6 +1,6 @@
 ---
 title: Media
-updated: 2025-03-26 21:09:54Z
+updated: 2025-05-30 11:36:51Z
 created: 2025-03-10 19:04:04Z
 tags:
   - concept
@@ -22,9 +22,11 @@ There is a template [Media](../Templates/Media%20-TEMPLATE-.md) to create new me
 
 
 ## Heading Template for Media
+```markdown
 | **Source** | **Retrieved** |
 |-|-|
 | source_here | date_retrieved |
+```
 [⬆️](#t)
 ***
 <br>

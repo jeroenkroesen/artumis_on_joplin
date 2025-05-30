@@ -1,6 +1,6 @@
 ---
 title: Diary day -TEMPLATE-
-updated: 2025-03-20 22:38:54Z
+updated: 2025-05-30 12:10:03Z
 created: 2024-08-18 20:10:41Z
 latitude: 52.19448960
 longitude: 4.41910120
@@ -42,8 +42,8 @@ listview:
 
 <!-- note-overview-plugin
 search: type:note tag:time.{{Year}} tag:time.{{Month_name}} tag:time.day_{{Day_number}}
-fields: title
-alias: title AS Notes
+fields: title, image
+alias: title AS Notes, image AS Pic
 sort: title ASC
 details:
   open: true
@@ -52,8 +52,8 @@ details:
 <details  open>
 <summary>Notes - \{\{count\}\}</summary>
 
-| Notes |
-| --- |
+| Notes | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 
