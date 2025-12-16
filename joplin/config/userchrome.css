@@ -1,0 +1,11 @@
+/* For styling the entire Joplin app (except the rendered Markdown, which is defined in `userstyle.css`) */
+
+/* Hide markdown toolbar */
+#CodeMirrorToolbar {
+    display: none;
+}
+
+/* Hide note info toolbar (includes set alarm button) */
+div.note-title-info-group {
+    display: none;
+}
