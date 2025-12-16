@@ -1,35 +1,36 @@
 ---
 title: Media
-updated: 2025-05-30 11:36:51Z
-created: 2025-03-10 19:04:04Z
+updated: 2025-12-16 15:33:54Z
+created: 2023-04-28 08:28:23Z
 tags:
-  - concept
+  - .concept
 ---
 
-# :newspaper: Media
+# Media
 ###### t
-Media in [Artumis Second Brain](../1.Mind/Artumis%20Second%20Brain%20-t-.md) means text and other media created by other [People](../1.Mind/Person.md) than the owner of the second brain. You import media into Joplin for reference. Please be considerate of copyright laws.
+Media made by other people, in various formats.
 
-To clearly separate media from writings of the owner of the external brain, all media should be stored in the notebook `2.Media`.
-
-The [Joplin Webclipper](https://joplinapp.org/help/apps/clipper/) is very well suited for bringing webpages into the second brain and converting them to markdown. 
-
-There is a template [Media](../Templates/Media%20-TEMPLATE-.md) to create new media.
+If a note itself contains actual media content, it is stored in notebook `2.Media`.
 [⬆️](#t)
 ***
 <br>
+
 
 
 
 ## Heading Template for Media
 ```markdown
-| **Source** | **Retrieved** |
-|-|-|
+| **Source**      | **Retrieved**  |
+|-------------|------------|
 | source_here | date_retrieved |
+[⬆️](#t)
+***
+<br>
 ```
 [⬆️](#t)
 ***
 <br>
+
 
 
 
@@ -43,10 +44,11 @@ details:
   summary: Media types - {{count}}
 -->
 <details close>
-<summary>Media types - 1</summary>
+<summary>Media types - 2</summary>
 
 | Type |
 | --- |
+|[(1).Start](../1.Mind/%281%29.Start.md)|
 |[Book](../1.Mind/Book.md)|
 </details>
 <!--endoverview-->
@@ -86,7 +88,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:media -tag:media.external -tag:media.internal
+search: tag:media -tag:media.external -tag:media.internal -tag:media.type
 fields: title
 alias: title AS Media
 sort: title ASC
@@ -103,7 +105,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:media
+search: tag:media -tag:media.type
 fields: title
 alias: title AS Media
 sort: title ASC
@@ -121,13 +123,5 @@ details:
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `media` |
-[⬆️](#t)
-***
-<br>
+[Concept](../1.Mind/Concept.md)
+Tag: `media`

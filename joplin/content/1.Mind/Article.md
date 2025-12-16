@@ -1,21 +1,20 @@
 ---
 title: Article
-updated: 2025-03-26 21:05:11Z
-created: 2025-03-10 19:00:08Z
+updated: 2025-12-16 15:37:50Z
+created: 2023-04-08 20:43:51Z
 tags:
-  - concept
+  - .concept
 ---
 
 # :scroll: Article
 ###### t
-A longer piece of writing by you.
+A longer piece of writing by me.
 
 Tag articles with these state tags:
-`article.state.wip` - Writing is in progress
-`article.state.unpublished` - The article is done, but not published
-`article.state.published` - The article is done and published
-
-Use the template [Article](../Templates/Article%20-TEMPLATE-.md) to create new articles.
+`.article.state.backlog` - I'd like to write this article or complete it
+`.article.state.wip` - Writing is in progress
+`.article.state.unpublished` - The article is done, but not published
+`.article.state.published` The article is done and published
 [⬆️](#t)
 ***
 <br>
@@ -23,7 +22,7 @@ Use the template [Article](../Templates/Article%20-TEMPLATE-.md) to create new a
 
 
 <!-- note-overview-plugin
-search: tag:article tag:article.state.wip
+search: tag:.article tag:.article.state.wip
 fields: title
 alias: title AS Article
 sort: title ASC
@@ -40,7 +39,24 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:article tag:article.state.unpublished
+search: tag:.article tag:.article.state.backlog
+fields: title
+alias: title AS Article
+sort: title ASC
+details:
+  open: false
+  summary: Backlog - {{count}}
+-->
+<details close>
+<summary>Backlog - 0</summary>
+
+| Article |
+| --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:.article tag:.article.state.unpublished
 fields: title
 alias: title AS Article
 sort: title ASC
@@ -57,7 +73,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:article tag:article.state.published
+search: tag:.article tag:.article.state.published
 fields: title
 alias: title AS Article
 sort: title ASC
@@ -74,7 +90,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:article -tag:article.state.*
+search: tag:.article -tag:.article.state.*
 fields: title
 alias: title AS Article
 sort: title ASC
@@ -92,13 +108,5 @@ details:
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `article` |
-[⬆️](#t)
-***
-<br>
+[Concept](../1.Mind/Concept.md)
+Tag: `.article`

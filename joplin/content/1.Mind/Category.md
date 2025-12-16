@@ -1,14 +1,17 @@
 ---
 title: Category
-updated: 2025-05-30 11:24:45Z
-created: 2025-05-30 11:19:35Z
+updated: 2025-12-16 15:38:52Z
+created: 2025-05-17 13:07:34Z
+latitude: 52.19448960
+longitude: 4.41910120
+altitude: 0.0000
 tags:
-  - concept
+  - .concept
 ---
 
-# Category
+# :diamond_shape_with_a_dot_inside: Category
 ###### t
-Categorize topics and dossiers. Possibly other types of notes.
+Categorize topics. Possibly other types of notes.
 [⬆️](#t)
 ***
 <br>
@@ -16,7 +19,7 @@ Categorize topics and dossiers. Possibly other types of notes.
 
 
 <!-- note-overview-plugin
-search: tag:category
+search: tag:.category -tag:dedimo
 fields: title, image
 alias: title AS Category, image AS Pic
 sort: title ASC
@@ -33,7 +36,7 @@ details:
 <!--endoverview-->
 
 <!-- note-overview-plugin
-search: tag:topic -tag:c.*
+search: tag:.topic -tag:dedimo -tag:c.*
 fields: title, image
 alias: title AS Topic, image AS Pic
 sort: title ASC
@@ -42,24 +45,14 @@ details:
   summary: Uncategorized topics - {{count}}
 -->
 <details  open>
-<summary>Uncategorized topics - 2</summary>
+<summary>Uncategorized topics - 0</summary>
 
 | Topic | Pic |
 | --- | --- |
-|[Artumis Second Brain -t-](../1.Mind/Artumis%20Second%20Brain%20-t-.md)| |
-|[Learn Artumis Second Brain -d-](../1.Mind/Learn%20Artumis%20Second%20Brain%20-d-.md)| |
 </details>
 <!--endoverview-->
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| LinkTags | Tagging |
-|-|-|
-| [Concept](../1.Mind/Concept.md) | `category` |
-[⬆️](#t)
-***
-<br>
+[Concept](../1.Mind/Concept.md)
+Tag: `.category`

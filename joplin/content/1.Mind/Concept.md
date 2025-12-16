@@ -1,16 +1,17 @@
 ---
 title: Concept
-updated: 2025-05-30 11:24:51Z
-created: 2025-03-23 18:24:17Z
+updated: 2025-12-16 15:42:03Z
+created: 2022-11-16 10:12:59Z
 ---
 
-# :bulb: Concept
+# Concept
 ###### t
-A concept is a building block of the 2nd brain. A concept (for example a person) usually consists of:
-1. A concept note
-	* Explains the concept
-	* Links to all instances of the concept (in case of a person: links to all persons)
-2. One or more templates to make instances of the concept
+A concept is the core organizing principle of your external mind. You can create a new concept when you want to track things in another fashion than simply a *topic* or *category*. Oftentimes these are areas in your life that warrant further structure to write about. 
+
+Examples: 
+* A doctor may want to track diseases and so create a concept "disease" with various subdivisions.
+* An IT specialist might track software
+* A lawyer might track legislation and jurisprudence
 
 [⬆️](#t)
 ***
@@ -19,28 +20,23 @@ A concept is a building block of the 2nd brain. A concept (for example a person)
 
 
 <!-- note-overview-plugin
-search: tag:concept
+search: tag:.concept
 fields: title
 alias: title AS Concept
 sort: title ASC
 details:
   open: true
-  summary: Concepts - {{count}}
+  summary: Concepts {{count}}
 -->
 <details  open>
-<summary>Concepts - 11</summary>
+<summary>Concepts 6</summary>
 
 | Concept |
 | --- |
 |[Article](../1.Mind/Article.md)|
-|[Book](../1.Mind/Book.md)|
 |[Category](../1.Mind/Category.md)|
-|[Diary](../1.Mind/Diary.md)|
-|[Dossiers](../1.Mind/Dossiers.md)|
 |[Howto](../1.Mind/Howto.md)|
-|[Location](../1.Mind/Location.md)|
 |[Media](../1.Mind/Media.md)|
-|[Organization](../1.Mind/Organization.md)|
 |[Person](../1.Mind/Person.md)|
 |[Topic](../1.Mind/Topic.md)|
 </details>
@@ -48,13 +44,4 @@ details:
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `concept` |
-[⬆️](#t)
-***
-<br>
+Tag: `.concept`

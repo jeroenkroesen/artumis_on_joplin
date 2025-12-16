@@ -1,20 +1,21 @@
 ---
 title: Person
-updated: 2025-03-26 21:10:59Z
-created: 2025-03-10 19:00:12Z
+updated: 2025-12-16 15:36:07Z
+created: 2022-11-14 18:39:03Z
 tags:
-  - concept
+  - .concept
 ---
 
 # :couple: Person
 ###### t
-Persons are your adressbook. A person is a note with information on another Human Being. It does not have to be limited to people you know personally.
-
-The template [Person](../Templates/Person%20-TEMPLATE-.md) can be used to make more person notes.
+A Person is a note describing a human being. These notes are used to link other notes to persons. For example: the persons attending a meeting.
 
 - A person will have a corresponding tag in the format of:
-`p.firstname_lastname`
+p.firstname_lastname.
+- A person will contain a link to this meta concept note
+- All instances of person are made with the template: [Person -T-](:/0d44b3e28fb2470782b4231eb2e4cb72)
 
+All known persons can be traced with the tag `person`.
 [⬆️](#t)
 ***
 <br>
@@ -22,16 +23,101 @@ The template [Person](../Templates/Person%20-TEMPLATE-.md) can be used to make m
 
 
 <!-- note-overview-plugin
-search: tag:person
+search: tag:person.relation.family
 fields: title, image
 alias: title AS Person, image AS Pic
 sort: title ASC
 details:
-  open: true
-  summary: People - {{count}}
+  open: false
+  summary: Family - {{count}}
 -->
-<details  open>
-<summary>People - 0</summary>
+<details close>
+<summary>Family - 0</summary>
+
+| Person | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:person.relation.friend
+fields: title, image
+alias: title AS Person, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: Friends - {{count}}
+-->
+<details close>
+<summary>Friends - 0</summary>
+
+| Person | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:person.relation.business
+fields: title, image
+alias: title AS Person, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: Business relations - {{count}}
+-->
+<details close>
+<summary>Business relations - 0</summary>
+
+| Person | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:person.relation.know_personally
+fields: title, image
+alias: title AS Person, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: People I've met - {{count}}
+-->
+<details close>
+<summary>People I've met - 0</summary>
+
+| Person | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:person.relation.not_met
+fields: title, image
+alias: title AS Person, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: People I've never met - {{count}}
+-->
+<details close>
+<summary>People I've never met - 0</summary>
+
+| Person | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:person.deceased
+fields: title, image
+alias: title AS Person, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: Deceased People - {{count}}
+-->
+<details close>
+<summary>Deceased People - 0</summary>
 
 | Person | Pic |
 | --- | --- |
@@ -40,13 +126,5 @@ details:
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `person` |
-[⬆️](#t)
-***
-<br>
+[Concept](../1.Mind/Concept.md)
+Tag: `person`

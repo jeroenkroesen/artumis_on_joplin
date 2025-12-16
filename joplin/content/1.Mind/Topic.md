@@ -1,18 +1,19 @@
 ---
 title: Topic
-updated: 2025-05-30 11:40:58Z
-created: 2025-03-10 19:00:13Z
+updated: 2025-12-16 15:38:39Z
+created: 2022-11-22 21:57:15Z
+latitude: 52.19448960
+longitude: 4.41910120
+altitude: 0.0000
 tags:
-  - concept
+  - .concept
 ---
 
 # :hash: Topic
 ###### t
-Link notes to topics. 
+Link notes to topics.
 
-Use the template [Topic](../Templates/Topic%20-TEMPLATE-.md) to create new topics.
-
-If you get to a point where you have a lot of topics, it may be useful to organize them into [categories](../1.Mind/Category.md).
+[:diamond_shape_with_a_dot_inside: Categories](../1.Mind/Category.md) bring further structure to topics.
 [⬆️](#t)
 ***
 <br>
@@ -20,33 +21,57 @@ If you get to a point where you have a lot of topics, it may be useful to organi
 
 
 <!-- note-overview-plugin
-search: tag:topic
+search: tag:.topic -tag:dedimo tag:.topic.active
 fields: title, image
 alias: title AS Topic, image AS Pic
 sort: title ASC
 details:
   open: true
-  summary: Topic - {{count}}
+  summary: Active topics - {{count}}
 -->
 <details  open>
-<summary>Topic - 2</summary>
+<summary>Active topics - 0</summary>
 
 | Topic | Pic |
 | --- | --- |
-|[Artumis Second Brain -t-](../1.Mind/Artumis%20Second%20Brain%20-t-.md)| |
-|[Learn Artumis Second Brain -d-](../1.Mind/Learn%20Artumis%20Second%20Brain%20-d-.md)| |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:.topic -tag:dedimo -tag:.topic.*
+fields: title, image
+alias: title AS Topic, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: Topics not archived or active - {{count}}
+-->
+<details close>
+<summary>Topics not archived or active - 0</summary>
+
+| Topic | Pic |
+| --- | --- |
+</details>
+<!--endoverview-->
+
+<!-- note-overview-plugin
+search: tag:.topic -tag:dedimo tag:.topic.archive
+fields: title, image
+alias: title AS Topic, image AS Pic
+sort: title ASC
+details:
+  open: false
+  summary: Archived topics - {{count}}
+-->
+<details close>
+<summary>Archived topics - 0</summary>
+
+| Topic | Pic |
+| --- | --- |
 </details>
 <!--endoverview-->
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `topic` |
-[⬆️](#t)
-***
-<br>
+[Concept](../1.Mind/Concept.md)
+Tag: `.topic`

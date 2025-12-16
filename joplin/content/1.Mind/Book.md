@@ -1,19 +1,16 @@
 ---
 title: Book
-updated: 2025-03-26 21:06:09Z
-created: 2025-03-10 19:00:08Z
+updated: 2025-12-16 15:23:47Z
+created: 2022-11-16 23:35:26Z
 tags:
-  - concept
   - media.type
+  - media.type.document
 ---
 
-# :books: Book
+# Book
 ###### t
-A media type. 
-
-Use the [Book](../Templates/Book%20-TEMPLATE-.md) to create new book notes.
-
-If you want to easily link all books to an author, considering making a [Person](../1.Mind/Person.md) note for the author using the template [Person](../Templates/Person%20-TEMPLATE-.md).
+A type of document.
+An information medium, either ink on paper, or a digital file.
 [⬆️](#t)
 ***
 <br>
@@ -39,13 +36,5 @@ details:
 
 [⬆️](#t)
 ***
-<br>
-
-
-
-| Tagging |
-|-|
-| `media.type.document.book` |
-[⬆️](#t)
-***
-<br>
+[Media](../1.Mind/Media.md)
+Tag: `media.type.document.book`
