@@ -21,7 +21,7 @@ Implementing the Artumis second brain method in the Joplin note-taking app.
   
   
 ## Branch 'zen_interface'
-When comparing Joplin to Obsidian and LogSeq, the Joplin UI comes across as dated, stale and a little cluttered. A second brain should have a clean, peaceful zen vibe. It is already possible to hide the sidebar and note list with default shortcuts.  
+When comparing Joplin to Obsidian and LogSeq, the Joplin UI comes across as a little cluttered. A second brain should have a clean, peaceful zen vibe. It is already possible to hide the sidebar and note list with default shortcuts.  
   
 The following remained in the way of clutter:
 * Menu bar
