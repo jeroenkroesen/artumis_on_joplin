@@ -111,8 +111,6 @@
 		"viewer"
 	],
 	"editor.keyboardMode": "",
-	"editor.beta": false,
-	"api.token": "453a37420b605332a0060322da0665427e322a2ca91aa51ca6c3abe25b21ee1f37aab5b67cb7394e5f6a6d9eccd8c6b8dccd6681f28b12fba2c1d4a2aebbf632",
 	"spellChecker.languages": [
 		"en-US"
 	],
